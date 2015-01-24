@@ -8,7 +8,7 @@ def ternarySearch(a,k):
 	if a[index1] == k or a[0] == k or a[index2] == k or a[n-1] == k:
 		return True
 	elif k < a[index1]:
-		return ternarySearch(a[0:index1-1], k)
+		return ternarySearch(a[0:index1], k)
 	elif k > a[index2]:
 		return ternarySearch(a[index2+1:n], k) 
 	elif a[index1] < k < a[index2]:
