@@ -1,6 +1,6 @@
 These are two ternary search functions.
 
-The first one iterates through the array.
+The file ternarysearch.py iterates through the array.
 
 The file ternarysearch2.py recursively searches.
 
