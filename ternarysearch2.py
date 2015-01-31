@@ -10,7 +10,7 @@ def ternarySearch(a,k):
 	elif k < a[index1]:
 		return ternarySearch(a[0:index1], k)
 	elif k > a[index2]:
-		return ternarySearch(a[index2+1:n], k) 
+		return ternarySearch(a[index2:n], k) 
 	elif a[index1] < k < a[index2]:
 		return ternarySearch(a[index1:index2], k)
 	else:
